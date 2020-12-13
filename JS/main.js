@@ -43,6 +43,87 @@ console.log(b);
 console.log(c);
 
 
+//JS  is  case sensitive
+
+
+//adding  number
+
+var  sum  =  10+10
+console.log(sum);
+
+//substraction  number
+
+var  sub  =  200-110
+console.log(sub);
+
+//multiplication  number
+
+var  mul  =  20 * 110
+console.log(mul);
+
+//dividing   number
+
+var  div  =  200/110
+console.log(div);
+
+//incrimenting  number
+
+var  inc  =  98;
+inc++;
+console.log(inc);
+
+
+//decrementing  number
+
+var  dec  =  98;
+dec--;
+console.log(dec);
+
+
+
+// decimal  number
+
+var  ourDecimal = 5.3;
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
