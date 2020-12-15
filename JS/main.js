@@ -157,6 +157,38 @@ console.log(ourData);
 ourrArray[4] =76;
 console.log(ourrArray);
 
+//multi-dimensional  Array
+
+
+var  mymultiArray = [[1,2,3], [4,5,6],[7,8,9],[[10,11,12],13,14] ];
+
+var  multiArrayData = [1][0];
+console.log(multiArrayData)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
