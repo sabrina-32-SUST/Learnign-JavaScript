@@ -135,7 +135,18 @@ console.log(wordBlanks("dog ", "big ", "ran ", " quickly "));
 
 
 
-//
+//Array
+
+var  ourArray = [["John",  23],["Ary",  01]];
+
+ 
+console.log(ourArray);
+ 
+
+//array  index
+
+
+
 
 
 
