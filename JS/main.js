@@ -123,7 +123,19 @@ lastLatterOfFirstName = firstName[ firstName.length-1];
 console.log(lastLatterOfFirstName);
  
 
+//work  with  Function
+function  wordBlanks(myNoun,  myAdjective,  myVerb,  myAdverb){
+    var  result = "";
+    result+= "The "+myAdjective + myNoun + myVerb+" to  the Store" + myAdverb;
+    return result;
 
+}
+
+console.log(wordBlanks("dog ", "big ", "ran ", " quickly "));
+
+
+
+//
 
 
 
