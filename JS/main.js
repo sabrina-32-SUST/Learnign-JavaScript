@@ -192,6 +192,15 @@ function  ourReusableFunction(){
 ourReusableFunction();
 
 
+//passing values
+
+function  ourFunctionArgs(a, b){
+    console.log(a-b);
+}
+
+ourFunctionArgs(5,2);
+
+
 
 
 
