@@ -80,11 +80,45 @@ dec--;
 console.log(dec);
 
 
+//concate string
+
+var ortStr = "I  come  1st"+ " I  come  2nd";
+console.log(ortStr);
+
+
+var  myStr = "This  is  the  1st  sentence."
+myStr+=" This  is  the  2nd  sentence."
+
+console.log(myStr)
+
+
+//constructing string  with  variable
+var  myStr = "This  is  the  1st  sentence."
+myStr+=  ourName
+myStr+=" This  is  the  2nd  sentence."
+
+console.log(myStr)
+
+
+
 
 // decimal  number
 
 var  ourDecimal = 5.3;
  
+
+//lenth of the  str
+
+
+var   firstName = "Sabrina";
+var   firstNameLenght = 0;
+firstNameLenght = firstName.length;
+console.log(firstNameLenght);
+
+
+
+
+
 
 
 
