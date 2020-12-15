@@ -152,6 +152,36 @@ console.log(ourrArray);
 
 console.log(ourData);
 
+//modify  array  
+
+ourrArray[4] =76;
+console.log(ourrArray);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
