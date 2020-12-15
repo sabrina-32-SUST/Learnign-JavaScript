@@ -145,6 +145,15 @@ console.log(ourArray);
 
 //array  index
 
+var  ourrArray = [1,2,3,4,5,56];
+var ourData = ourrArray[0];
+
+console.log(ourrArray);
+
+console.log(ourData);
+
+
+
 
 
 
