@@ -173,6 +173,9 @@ ourAarray.push(["Ruma", "Jhuma"]);
 
 console.log(ourAarray);
 
+//pop()
+
+console.log(ourAarray.pop());
 
 
 
