@@ -114,9 +114,34 @@ var   firstName = "Sabrina";
 var   firstNameLenght = 0;
 firstNameLenght = firstName.length;
 console.log(firstNameLenght);
-var  firshtLatterOfFirstName = "";
-firshtLatterOfFirstName = firstName[0];
-console.log(firshtLatterOfFirstName);
+var  firstLatterOfFirstName = "";
+firstLatterOfFirstName = firstName[0];
+console.log(firstLatterOfFirstName);
+
+var  lastLatterOfFirstName = "";
+lastLatterOfFirstName = firstName[ firstName.length-1];
+console.log(lastLatterOfFirstName);
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
