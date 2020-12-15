@@ -178,6 +178,47 @@ console.log(ourAarray);
 console.log(ourAarray.pop());
 
 
+//shift()
+
+console.log(ourAarray.shift());
+
+  
+//reusable  code  with  function
+
+function  ourReusableFunction(){
+    console.log("Hello", "World");
+}
+
+ourReusableFunction();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
