@@ -166,6 +166,12 @@ var  multiArrayData = [1][0];
 console.log(multiArrayData)
 
 
+//push()
+
+var   ourAarray = ["Sima", "Rima", "Jima"];
+ourAarray.push(["Ruma", "Jhuma"]);
+
+console.log(ourAarray);
 
 
 
