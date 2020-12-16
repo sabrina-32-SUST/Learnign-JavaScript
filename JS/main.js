@@ -243,9 +243,28 @@ console.log(testEqual('12'));
 console.log(testStrictEqual('12'));
 
 
+ /// objects
 
 
+ var   ourDOg = {
+"name" : "Camper",
+"legs" :  4,
+"tails":  1,
+"friends" : ["everythings!"]
 
+
+ };
+
+//accessign  obj with  dot
+
+ var ourDogObj = ourDOg.name;
+ console.log(ourDogObj);
+
+ //accessign  obj with  brackets
+
+ 
+
+ 
 
 
 
