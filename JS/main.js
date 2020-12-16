@@ -284,7 +284,24 @@ console.log(ourDOg);
 
 ///using  obj  for  lookups
 
+function  phoneticLookup(val){
+  var  result = "";
 
+  var  lookup ={
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlies": "Chicago",
+    "Delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "frank",
+  };
+
+ 
+result = lookup[val];
+return  result;
+}
+
+console.log(phoneticLookup("bravo"));
 
 
 
