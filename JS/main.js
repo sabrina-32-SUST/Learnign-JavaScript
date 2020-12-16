@@ -200,6 +200,103 @@ function  ourFunctionArgs(a, b){
 
 ourFunctionArgs(5,2);
 
+//boolean
+
+function  ourTrueFalse(isItTrue){
+  if(isItTrue){
+    return  "yes ,  it is  true";
+
+  }
+  return " no  it  is  false"
+}
+
+
+console.log(ourTrueFalse(true)) ;
+
+
+//equality  operator
+
+function  testEqual(val){
+  if(val == 12){
+    return  "Equal";
+  }
+  return  "not Equal";
+
+}
+
+console.log(testEqual('12'));
+
+
+//strict equal
+ // here  3===3 is  true
+ //but 3==='3'  is false
+ // bcz  ===  dont  do  type  conversion
+
+ function  testStrictEqual(val){
+  if(val === 12){
+    return  "Equal";
+  }
+  return  "not Equal";
+
+}
+
+console.log(testStrictEqual('12'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
