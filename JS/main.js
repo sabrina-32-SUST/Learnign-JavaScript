@@ -260,9 +260,76 @@ console.log(testStrictEqual('12'));
  var ourDogObj = ourDOg.name;
  console.log(ourDogObj);
 
- //accessign  obj with  brackets
-
  
+//update  obj  property
+
+
+ourDOg.name = "happy";
+
+console.log(ourDOg);
+
+/// add  new  properties
+ourDOg["bark"] = "woaf!";
+console.log(ourDOg);
+
+
+//delete  properties  from obj
+
+
+delete ourDOg.friends;
+
+
+console.log(ourDOg);
+
+
+///using  obj  for  lookups
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
 
