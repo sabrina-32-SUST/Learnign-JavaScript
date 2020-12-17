@@ -324,6 +324,90 @@ var   gloveBoxContents = myStorage.car.inside["glove box"];
 console.log(gloveBoxContents);
 
 
+//accessign Nested Array
+
+
+var  myPlants = [
+  {
+    type : "flower",
+    list:[
+      "rose",
+      "Tulip",
+      "Dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list:[
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
+];
+
+var plants = myPlants[0].list[0];
+console.log(plants)
+
+///profile  lookup
+
+var   contacts = [
+
+  {
+
+    "firstname" : "Akira",
+    "lastname" : "Laine",
+    "number": "134553435",
+    "likes":["Pizza", "Coding", "Brownie"]
+  },
+  {
+
+    "firstname" : "Harry",
+    "lastname" : "Potter",
+    "number": "33545436453",
+    "likes":["Hogwarts", "Magic", "Hafrid"]
+  },
+  {
+
+    "firstname" : "Sherlock",
+    "lastname" : "Holmes",
+    "number": "04354362321",
+    "likes":["Voiline", "Investigate", "Watson"]
+  },
+  {
+
+    "firstname" : "Kristian",
+    "lastname" : "Ronaldo",
+    "number": "5482304540656",
+    "likes":["Football", "Book"]
+  }
+  
+]
+
+
+
+function lookUpProfile(name,  Prop){
+
+  for(var i  = 0;  i<contacts.length; i++){
+    if(contacts[i].firstname ===name) {
+
+      return  contacts[i][Prop] || "no  such  property";
+      
+    }
+  
+  }
+  return  "no  such  contact"
+}
+
+
+
+var   data = lookUpProfile("Akira", "likes");
+console.log(data);
+
+
+
+
+
 
 
 
