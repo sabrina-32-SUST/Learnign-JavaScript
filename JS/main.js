@@ -392,7 +392,7 @@ function lookUpProfile(name,  Prop){
     if(contacts[i].firstname ===name) {
 
       return  contacts[i][Prop] || "no  such  property";
-      
+
     }
   
   }
@@ -405,6 +405,13 @@ var   data = lookUpProfile("Akira", "likes");
 console.log(data);
 
 
+///  random  function
+
+function  randomFraction(){
+  return  Math.random();
+}
+
+console.log(randomFraction());
 
 
 
