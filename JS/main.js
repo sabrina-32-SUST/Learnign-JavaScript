@@ -436,6 +436,48 @@ function  ourRandomRange(ourMin,  ourMax){
 console.log(ourRandomRange(1,9));
 
 
+///anonymous  function
+
+
+// var  magic   =  function(){
+//   return  new Data();
+
+// }
+
+
+//arrow  function
+
+// const  magic = ()=>  new Data();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
