@@ -450,6 +450,15 @@ console.log(ourRandomRange(1,9));
 // const  magic = ()=>  new Data();
 
 
+//arrow  function  with  parameter
+
+
+
+var  myConcat = (arr1,  arr2) => arr1.concat(arr2);
+
+console.log(myConcat([1,2],[3,4]));
+
+
 
 
 
